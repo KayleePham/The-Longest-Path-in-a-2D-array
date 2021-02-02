@@ -1,15 +1,15 @@
-//Kaylee Pham, Comp482 section# 17094 (5pm), Project #4
+
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-public class Project4 {
+public class LongestPath2dArray {
     private static Scanner scan;
 
     public static void main(String[] args) throws FileNotFoundException {
         // Open the file
-        File input4 = new File("C:\\Users\\kayle\\Documents\\Java\\input4.text");
+        File input4 = new File("input4.text");
 
         scan = new Scanner(input4);
 
